@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TOP NAVIGATION BAR -->
+    <header class="navbar">
+        <div class="logo">ShopStella</div>
+
+        <nav class="nav-links">
+            <a href="#">Home</a>
+
+            <!-- Dropdown -->
+            <div class="dropdown">
+                <a class="drop-btn">Categories ▼</a>
+                <div class="dropdown-content">
+                    <a href="#">Men's Fashion</a>
+                    <a href="#">Women's Fashion</a>
+                    <a href="#">Electronics</a>
+                    <a href="#">Groceries</a>
+                    <a href="#">Mobiles</a>
+                    <a href="#">Home Appliances</a>
+                </div>
+            </div>
+
+            <a href="#">Deals</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Support</a>
+        </nav>
+
+        <!-- Right Icons -->
+        <div class="icons">
+            <button class="icon-btn">❤️</button>
+            <button class="icon-btn">🛒</button>
+            <button class="icon-btn">👤</button>
+            <button id="openSearch" class="search-btn">🔍</button>
+        </div>
+    </header>
+
+    <!-- SEARCH AREA -->
+    <section class="search-area" id="searchArea">
+        <div class="search-box">
+            <input type="text" placeholder="Search for products...">
+            <button id="closeSearch" class="close-btn">✖</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
